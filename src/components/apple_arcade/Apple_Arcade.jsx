@@ -1,5 +1,5 @@
 import React from 'react'
-import Arcade from '../../src/assets/images/icons/arcade.png'
+import Arcade from '../../assets/images/icons/arcade.png'
 const Apple_Arcade = () => {
   return (
    <section className="sixth-heghlight-wrapper">
