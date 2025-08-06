@@ -1,6 +1,5 @@
 import { useState } from 'react'
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import './assets/css/bootstrap.css'
 import './App.css'
 import Header from './components/header/Header.jsx'
 import Alert from './components/alert/Alert.jsx'

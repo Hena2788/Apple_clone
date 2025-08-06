@@ -1,5 +1,6 @@
 import React from 'react'
 import icon from '../../assets/images/icons/16.png'
+import './custom.js'
 
 const Footer = () => {
   return (
