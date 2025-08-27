@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client'
 import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
+import { BrowserRouter } from 'react-router'
 // import './assets/css/bootstrap.css'
 
 import './App.css'
@@ -11,6 +12,8 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+  <BrowserRouter>
     <App />
-  </StrictMode>,
+  </BrowserRouter>
+</StrictMode>
 )

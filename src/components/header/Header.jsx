@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from '../../assets/images/icons/logo-sm.png'
 import SearchIcon from '../../assets/images/icons/search-icon-sm.png'
 import CartIcon from '../../assets/images/icons/cart-sm.png'
+import {Link} from "react-router"
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
 				<div className="navbar-collapse collapse">
 					<ul className="navbar-nav nav-justified w-100 nav-fill">
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="/mac/">Mac</a></li>
-						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">iphone</a></li>
+						<li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/iphone">iphone</Link></li>
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">ipad</a></li>
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">watch</a></li>
 						<li className="nav-item"><a className="nav-link js-scroll-trigger" href="#">tv</a></li>
