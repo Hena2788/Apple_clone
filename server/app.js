@@ -81,7 +81,7 @@ app.get("/install", async (req, res) => {
         `CREATE TABLE IF NOT EXISTS ProductPrice(
             price_id INT AUTO_INCREMENT,
             product_id INT NOT NULL,
-            starting_price DECIMAL(10,2) NOT NULL,
+            starting_price VARCHAR(255) NOT NULL,
             price_range VARCHAR(255) NOT NULL,
             PRIMARY KEY (price_id),
             FOREIGN KEY (product_id) REFERENCES Products(product_id) ON DELETE CASCADE
