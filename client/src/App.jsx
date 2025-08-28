@@ -24,7 +24,7 @@ function App() {
       <Header />
       <Routes>
       <Route path="iphone" element={<Iphone />} />
-      {/* <Route path="iphone/:id" element={<Product />} /> */}
+      <Route path="iphone/:id" element={<Product />} />
       </Routes>
       <Alert />
       <Ipodpro/>
