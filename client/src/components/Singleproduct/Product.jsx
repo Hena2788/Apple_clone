@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router";
-import Four04 from "../page/Four04/Four04";
+import Four04 from "../Four04/Four04";
 import { axiosInstance } from "../../utils/axiosInstance";
 const Product = () => {
   //   console.log(useParams());

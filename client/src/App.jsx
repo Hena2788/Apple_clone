@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router";
 import './App.css'
 import Header from './components/header/Header.jsx'
 import Iphone from './components/Iphone/iphone.jsx';
+import Product from './components/Singleproduct/Product.jsx';
 import Alert from './components/alert/Alert.jsx'
 import Ipodpro from './components/ipod-pro/Ipodpro.jsx' 
 import Macbook from './components/MacBook_Air/Macbook.jsx'
