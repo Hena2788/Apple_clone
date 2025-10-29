@@ -4,7 +4,8 @@ import { createRoot } from 'react-dom/client'
 import "jquery/dist/jquery.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
-import { BrowserRouter } from 'react-router'
+import { BrowserRouter } from 'react-router-dom';
+
 // import './assets/css/bootstrap.css'
 
 import './App.css'
