@@ -34,7 +34,7 @@ function App() {
       <Apple_iphone/>
       <Apple_Watch/>
       <Apple_Arcade/>
-      {/* <AppleYoutube/> */}
+      <AppleYoutube/>
       <Footer/>
       
     </>
